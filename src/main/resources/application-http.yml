@@ -1,0 +1,6 @@
+server:
+  port: 8081
+receive:
+  path: /receiveGateway
+forward:
+  path: https://oapi.dingtalk.com/robot/send?access_token=xxx

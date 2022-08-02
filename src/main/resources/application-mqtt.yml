@@ -1,0 +1,23 @@
+spring:
+  # mqtt客户端服务 需要依赖的外部客户端服务
+  mqtt:
+#    username: mqtt
+#    password: mqtt
+    #以下用户是连接 moquette-io 的
+    username: mqtt
+    password: mqtt
+    # Eclpise mosquitto MQTT服务端
+#    url: tcp://192.168.101.113:1883
+    # moquette server MQTT服务端
+    url: tcp://localhost:1883
+    clientId: mqttclient-
+    topic: topic1
+    completionTimeout: 2000
+    consumer:
+      topic: sometopic,twotopic
+    producer:
+      clientid: foo,doo
+
+# moquette server 配置
+mqtt-server:
+  config-path: moquette.properties

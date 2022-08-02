@@ -1,0 +1,10 @@
+spring:
+  main:
+    allow-circular-references: true # 允许循环依赖
+    allow-bean-definition-overriding: true # 存在repo相同的情况 允许重名的bean
+  profiles:
+    include:
+      - mqtt
+      - http
+      - rmdb
+      - rabbitmq

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.platform.api.config.MqttConfiguration,\
+com.platform.api.config.MqttInboundConfiguration,\
+com.platform.api.config.MqttOutboundConfiguration
