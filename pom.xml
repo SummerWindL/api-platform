@@ -153,7 +153,7 @@
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/ojdbc8-21.1.0.0.jar</systemPath>
+            <systemPath>${project.basedir}/lib/ojdbc8.jar</systemPath>
         </dependency>
         <!-- druid -->
         <dependency>
